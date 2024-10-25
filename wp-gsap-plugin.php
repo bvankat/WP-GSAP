@@ -1,4 +1,4 @@
-<? php
+<?php
 
 /*
 Plugin Name: WP-GSAP
@@ -27,4 +27,3 @@ function theme_gsap_script(){
 }
 
 add_action( 'wp_enqueue_scripts', 'theme_gsap_script' );
-?>
